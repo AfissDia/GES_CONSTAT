@@ -84,7 +84,7 @@ if ($user != null) {
 
             echo '<div class="alert alert-success">' . $msg . '</div>';
 
-            header("refresh:3;url=login.php");
+            header("refresh:3;url=login/login.php");
 
             exit();
         }

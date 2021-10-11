@@ -22,11 +22,11 @@
         }else{
             
             $_SESSION['erreurLogin']="<strong>Erreur!!</strong> Votre compte est désactivé.<br> Veuillez contacter l'administrateur";
-            header('location:login.php');
+            header('location:login/login.php');
         }
     }else{
         $_SESSION['erreurLogin']="<strong>Erreur!!</strong> Login ou mot de passe incorrecte!!!";
-        header('location:login.php');
+        header('location:login/login.php');
     }
 
 ?>
